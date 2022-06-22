@@ -9,7 +9,7 @@
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/srlMatches"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="650dp">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rvMatches"
@@ -22,7 +22,7 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabSimulate"
-        android:layout_width="wrap_content"
+        android:layout_width="76dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_marginEnd="@dimen/margin_default"
